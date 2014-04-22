@@ -97,7 +97,7 @@ void movement()
     }
    if (direction == 180){    //Going down decreases y
       letterS[i].y--;
-     }
+    }
    if (letterS[i].y < 0){    //bottom loops to the top
       letterS[i].y = 7;
     }
